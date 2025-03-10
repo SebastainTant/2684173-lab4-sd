@@ -1,0 +1,10 @@
+.countryStuff {
+    display: flex;
+    justify-content: center;
+    background-color: lime;
+}
+
+main{
+    background-color: lime;
+}
+
