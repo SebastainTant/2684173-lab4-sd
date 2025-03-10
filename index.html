@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Country Info</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #FFB6C1;
+  }
+  #country-info, #bordering-countries {
+    margin-top: 10px;
+  }
+  #bordering-countries ul {
+    list-style-type: upper-roman;
+    padding: 0;
+  }
+  #bordering-countries li {
+    margin-bottom: 10px;
+  }
+  img {
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  </style>
+</head>
+<body>
+
+  <h1>country info</h1>
+
+  <form id="countryForm">
+    <label for="countryName">enter country: </label>
+    <input type="text" id="countryName" required>
+    <button type="submit">search</button>
+  </form>
+  <section id="countryStuff">
+  </section>
+  <section id="borders">
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
